@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: green;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aquamarine; 
+    background-color: white;
+}
+header .logo img{
+    width: 60px;
+}
+header nav ul{
+    display:flex;
+    flex-direction: row;
+}
+header nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: red
+}
+header nav ul li button{
+    background-color: transparent;
+    border: 1px solid gray;
+    /* display: inline-block; */
+    width: 150px;
+    height: 30px;
+    border-radius: 360px;
+    text-align: left;
+    cursor: text;
+}
+header .login button.signup{
+    color:antiquewhite;
+    border-radius: 360px;
+    border: none;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header .login button.login-btn{
+    color: white;
+    border-radius: 360px;
+    border: none;
+    background-color: limegreen;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header .login button.login-btn:hover{
+    background-color: green;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
